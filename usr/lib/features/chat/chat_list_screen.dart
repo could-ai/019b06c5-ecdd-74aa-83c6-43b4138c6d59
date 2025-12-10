@@ -29,7 +29,7 @@ class ChatListScreen extends StatelessWidget {
                 ),
                 if (index == 0)
                   Container(
-                    margin: const EdgeInsets.top: 5,
+                    margin: const EdgeInsets.only(top: 5),
                     padding: const EdgeInsets.all(4),
                     decoration: const BoxDecoration(
                       color: Colors.blue,
